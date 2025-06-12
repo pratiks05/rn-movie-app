@@ -1,9 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 
 const profile = () => {
   return (
-    <View>
+    <View className='bg-primary flex-1'>
       <Text>profile</Text>
     </View>
   )
