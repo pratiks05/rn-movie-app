@@ -3,10 +3,8 @@ import { View, Text, ActivityIndicator, FlatList, Image } from "react-native";
 
 import { images } from "@/constants/images";
 import { icons } from "@/constants/icons";
-
-
 import { fetchMovies } from "@/services/api";
-
+import { updateSearchCount } from "@/services/appwrite";
 
 import SearchBar from "@/components/SearchBar";
 import MovieDisplayCard from "@/components/MovieCard";
@@ -121,7 +119,3 @@ const Search = () => {
 };
 
 export default Search;
-function updateSearchCount(searchQuery: string, arg1: Movie) {
-  throw new Error("Function not implemented.");
-}
-
